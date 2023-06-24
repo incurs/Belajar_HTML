@@ -1,0 +1,73 @@
+/* Reset tampilan default */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Tampilan header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+/* Tampilan navigasi */
+nav {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Tampilan section */
+section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+section h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+section p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+/* Tampilan footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+}
